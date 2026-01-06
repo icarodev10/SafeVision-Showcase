@@ -24,7 +24,6 @@ This system uses advanced Computer Vision to monitor live camera feeds, detectin
 ### 🚀 Key Features
 
 * **🧠 Context-Aware Detection:** Uses a custom-trained YOLOv8 model to detect *Persons* and *PPE* separately, validating compliance based on spatial proximity (IoU Logic).
-* **⚡ Stabilized Real-Time Tracking:** Implements a temporal buffer ("Smoothing Algorithm") to prevent detection flickering and ensure robust tracking even when the camera shakes.
 * **🚨 Automatic Incident Logging:** Upon detecting a violation (e.g., "No Helmet"), the system automatically captures a snapshot and logs the event to a MySQL database with a timestamp.
 * **📊 Web Dashboard:** A FastAPI-integrated frontend for managers to view live streams, check safety statistics, and review incident history.
 
@@ -42,8 +41,7 @@ Although the source code is restricted for portfolio purposes, the system is bui
 ### 🧠 How the Logic Works (Simplified)
 1.  **Detection:** The model identifies a `Person` and surrounding objects (`Helmet`, `Goggles`).
 2.  **Geometry Check:** The algorithm calculates if the safety equipment is physically located *within* the bounding box of the person.
-3.  **Stabilization:** If a violation is detected, it enters a "Buffer Memory". The alert persists for a few frames even if detection is momentarily lost, ensuring visual stability.
-4.  **Action:** If the violation is confirmed, an alert is triggered visually and stored in the database.
+3.  **Action:** If the violation is confirmed, an alert is triggered visually and stored in the database.
 
 ---
 
