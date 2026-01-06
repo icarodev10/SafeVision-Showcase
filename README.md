@@ -9,7 +9,7 @@
 
 ## 🎥 Project Demo
 
-https://github.com/user-attachments/assets/SEU-VIDEO-AQUI
+https://github.com/user-attachments/assets/7c2a13ed-d7ac-47b6-8909-87992b785fb5
 
 ---
 
