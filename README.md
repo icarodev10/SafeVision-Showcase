@@ -6,6 +6,8 @@
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)
 ![YOLOv8](https://img.shields.io/badge/AI-YOLOv8-purple?style=for-the-badge)
 ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green?style=for-the-badge)
+![Industry 4.0](https://img.shields.io/badge/Industry%204.0-Smart%20Factory-orange?style=for-the-badge)
+![Automation](https://img.shields.io/badge/Category-Industrial%20Automation-blueviolet?style=for-the-badge)
 
 ## 🎥 Project Demo
 
